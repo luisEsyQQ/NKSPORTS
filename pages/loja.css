@@ -1,0 +1,43 @@
+.navbar-nav{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-item{
+    font-size: 16pt;
+}
+
+.navbar-item:hover{
+    font-size: 15pt;
+    text-decoration: underline;
+    color: #52106d;
+    transition: 1ms;
+}
+
+.carrinho{
+    position: relative;
+    right: 200px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#prod{
+    padding-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+img{
+    cursor: pointer;
+}
+
+#size{
+    position: relative;
+    left: 20px;
+}

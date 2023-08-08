@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastrese.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-dark py-2 d-flex"">
+            <div class="container d-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 12c0-1.103-.897-2-2-2h-1V7c0-2.757-2.243-5-5-5S7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v3H9V7z"></path></svg>
+                <h1 class="text-light">COMPRA SEGURA</h1>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center">
+                <img src="./images/default_765x625.png" alt="" style="width: 150px; border-radius: 50%; background-color: black; ">
+            </div>
+            <div class="container d-flex justify-content-center align-items-center">
+                <h1 class="text-light">PARA TODO O BRASIL</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M3.414 13.778 2 15.192l4.949 2.121 2.122 4.95 1.414-1.414-.707-3.536L13.091 14l3.61 7.704 1.339-1.339-1.19-10.123 2.828-2.829a2 2 0 1 0-2.828-2.828l-2.903 2.903L3.824 6.297 2.559 7.563l7.644 3.67-3.253 3.253-3.536-.708z"></path></svg>
+            </div>
+        </div>
+    </header>
+    <div class="pagina">
+        <div class="cartao">
+            <form action="#">
+                <div class="title">                                         
+                    <h1>Cadastre-se agora!</h1>
+                </div>
+                <div class="inputs">
+                    <div class="formulario">
+                        <label for="usuario">Usuário:</label>
+                        <input type="text" name="usuario" placeholder="Digite seu usuário" required>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="confirmarsenha">Confirme sua senha:</label>
+                        <input type="password" name="confirmarsenha" placeholder="Digite sua senha novamente" required>
+                    </div>
+                    
+                    <div class="terms"><input type="checkbox" required>
+                        Aceito todos os termos e serviços.
+                    </div>
+                    <button class="botaoregister">Cadastrar-se</button>
+                    
+                    <div class="logar">
+                        <p>Já possui uma conta?<a href="./login.html">Faça login agora!</a></p>
+                    </div>
+                </div>
+            </form>  
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+
+.navbar-nav{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-item{
+    font-size: 16pt;
+}
+
+.navbar-item:hover{
+    font-size: 15pt;
+    text-decoration: underline;
+    color: #52106d;
+    transition: 1ms;
+}
+
+.carrinho{
+    position: relative;
+    right: 200px;
+}
+
+#a{
+    height: 700px;
+    background-image: url(../images/NIKE1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#b{
+    height: 700px;
+    background-image: url(../images/NIKE2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#c{
+    height: 700px;
+    background-image: url(../images/NIKE3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img{
+    width: 100px;
+}
+
+#d{
+    height: 400px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#e{
+    height: 400px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#f{
+    height: 400px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#g{
+    height: 400px;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#size{
+    position: relative;
+    left: 20px;
+}
