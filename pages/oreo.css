@@ -1,0 +1,102 @@
+.navbar-nav{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-item{
+    font-size: 16pt;
+    transition: 0.5s;
+
+}
+
+.navbar-item:hover{
+    font-size: 15pt;
+    text-decoration: underline;
+    color: #52106d;
+    transition: 0.5s;
+
+}
+
+.carrinho{
+    position: relative;
+    right: 200px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+}
+
+#pageSize{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+#btn{
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    background-color: rgb(234, 198, 255);
+    transition: 0.5s;
+    cursor: not-allowed;
+}
+
+#btn:hover{
+    background-color: rgb(136, 136, 136);
+    transition: 0.5s;
+}
+
+#size{
+    position: relative;
+    left: 20px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.descProduto{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#Desc{
+    border: none;
+    font-weight: bolder;
+    border-bottom: 2px solid gray;
+    width: 8%;
+}
+
+p{
+    margin: 15px 0px;
+}
+
+#metadeTela{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 25px;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 20px;  
+}
+
+.titleProdutos{
+    margin: 35px 0px;
+    font-weight: bolder;
+}
+
+#row{
+    margin: 50px 0px;
+}

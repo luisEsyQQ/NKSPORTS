@@ -7,13 +7,14 @@
 
 .navbar-item{
     font-size: 16pt;
+    transition: 0.5s;
 }
 
 .navbar-item:hover{
     font-size: 15pt;
     text-decoration: underline;
     color: #52106d;
-    transition: 1ms;
+    transition: 0.5s;
 }
 
 .carrinho{
@@ -84,4 +85,10 @@ img{
 #size{
     position: relative;
     left: 20px;
+}
+
+#cards{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
