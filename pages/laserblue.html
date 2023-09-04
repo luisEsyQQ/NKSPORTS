@@ -33,7 +33,7 @@
                         <li class="navbar-item"><a class="nav-link text-dark" href="../index.html" >Início</a></li>
                         <li class="navbar-item"><a class="nav-link" href="./loja.html" style="color:#450c5d;" >Loja</a></li>
                         <li class="navbar-item"><a class="nav-link text-dark" href="../pages/login.html">Abrir conta</a></li>
-                        <li class="navbar-item"><a class="nav-link text-dark"class="nav-link" href="#">Contato</a></li>
+                        <li class="navbar-item"><a class="nav-link text-dark"class="nav-link" href="./contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="carrinho" data-bs-toggle="modal" data-bs-target="#carrinhoPopup">
@@ -88,21 +88,25 @@
                         <div>  
                             <h6>Escolha o tamanho:</h6>
                             <form action="#">
-                                <select required>
-                                    <option value="">Escolha uma opção</option>
-                                    <option value="38">38</option>
-                                    <option value="39">39</option>
-                                    <option value="40">40</option>
-                                    <option value="41">41</option>
-                                    <option value="42">42</option>
-                                    <option value="43">43</option>
-                                    <option value="44">44</option>
+                                <select class="ipt"  required>
+                                    <option class="ipt" >Escolha uma opção</option>
+                                    <option class="ipt" value="38">38</option>
+                                    <option class="ipt" value="39">39</option>
+                                    <option class="ipt" value="40">40</option>
+                                    <option class="ipt" value="41">41</option>
+                                    <option class="ipt" value="42">42</option>
+                                    <option class="ipt" value="43">43</option>
+                                    <option class="ipt" value="44">44</option>
                                 </select>
                             </form>
                             <hr>
                             <button id="btn">COMPRAR</button>
                             <hr>
-                        </div>   
+                            <div id="adicionarCarrinho">
+                                <img id="logo" src="./images/realizada.png" alt="">
+                                <h4>Compra adicionada ao carrinho!</h4>
+                            </div>
+                        </div>      
                     </div> 
                 </div>
                 <hr id="metadeTela">
@@ -147,6 +151,8 @@
 
 
     </div>
+    <script src="../script/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="../script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>

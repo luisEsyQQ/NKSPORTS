@@ -48,7 +48,6 @@ img{
     color: black;
     background-color: rgb(234, 198, 255);
     transition: 0.5s;
-    cursor: not-allowed;
 }
 
 #btn:hover{
@@ -99,4 +98,19 @@ p{
 
 #row{
     margin: 50px 0px;
+}
+
+#adicionarCarrinho{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: rgba(169, 255, 41, 0.911);
+    box-shadow: 0px 10px 40px #00000046;
+    display: none;
+    align-items: center;
+}
+
+#logo{
+    width: 30px;
 }
